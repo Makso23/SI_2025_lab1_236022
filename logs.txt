@@ -1,0 +1,17 @@
+*   34c810b Merge branch '1-remove-a-task-by-name' Merged branch to finalize functionality of 3 methods within the TaskManager class.
+|\  
+| * dc0b5cb Implemented removing task by name
+* |   dd0d057 Merge pull request #12 from Makso23/2-find-all-completed-tasks
+|\ \  
+| * | 343de16 Implemented finding all completed tasks
+| |/  
+* |   7fa015f Merge pull request #13 from Makso23/3-mark-a-task-as-completed-by-name
+|\ \  
+| |/  
+|/|   
+| * fd44e29 Implemented marking tasks complete by name
+|/  
+* 060ce23 Added Starter Code
+* 42c166a Initial Commit
+* ed232ae Delete README.md
+* 8e1cbbd Initial commit
