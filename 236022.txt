@@ -1,0 +1,53 @@
+0. Part zero
+cd /blabla/SI_2025_lab1_236022
+git init
+git remote add origin https://github.com/Makso23/SI_2025_lab1_236022
+git add README.md
+git commit -m "Initial Commit"
+git add SI2025Lab1Main.java
+git commit -m "Added Java Code"
+git push --set-upstream origin master
+1. Part one
+The steps were done on github browser. I followed the
+instructions and created a kanban type project where I added the 9 issues. The one I picked to implement are remove task by name, find all completed tasks and mark a task as completed.
+
+2. Part two
+git fetch origin //Fetch branches
+
+git checkout 1-remove-a-task-by-name                //Current branch is 1-remove-a...
+git add SI2025Lab1Main.java                         //Stage the java file to be commited
+git commit -m "Implemented removing task by name"   //Commit
+git push					    //Push
+
+//Same for other 2 issues
+
+git checkout 2-find-all-completed-tasks
+git add SI2025Lab1Main.java
+git push
+
+git checkout 3-mark-a-task-as-complete-by-name
+git add SI2025Lab1Main.java
+git push
+
+//After pushing the code for all 3 issues I created pull requests. I then merged the branches of issues 3 and 2 with no conflicts using the Merge Pull Request button. All of this was done on my GitHub browser tab. 
+NOTE: mark a task as completed by name didn't automatically go in the Done section, had to manually move it (find all completed tasks DID automatically go in the Done section). It might be because I renamed the branch from 8-mark-a-task-as-completed-by-name to 3-mark-a-task-as-completed-by-name? 
+
+git merge 1-remove-a-task-by-name
+//The editor opened requesting a commit message, typed: "Merged branch to finalize functionality of 3 methods within the TaskManager Class"
+
+git push origin master
+
+//Remaining issue went into Done tab automatically as stated in step 24.
+
+touch logs.txt
+git log --oneline --graph --all > logs.txt
+
+
+
+
+
+
+
+
+
+
