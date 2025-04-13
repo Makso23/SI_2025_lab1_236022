@@ -41,6 +41,22 @@ git push origin master
 
 touch logs.txt
 git log --oneline --graph --all > logs.txt
+git add logs.txt
+git commit -m "Added logs"
+git add 236022.txt
+git commit -m "Added documentation"
+
+//Forked repository on GitHub browser tab
+git clone https://github.com/Makso23/SI_2025_lab1_151020
+cd SI_2025_lab1_236022
+touch 236022.txt
+echo "Максим Киранџиски" > 236022.txt
+git add 236022.txt
+git commit -m "Add file"
+git push
+
+
+
 
 
 
